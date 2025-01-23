@@ -1,0 +1,19 @@
+.gallery {
+    margin: auto;
+    margin-top: 32px;
+    width: 1128px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.gallery-item {
+    width: 360px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
